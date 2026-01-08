@@ -52,6 +52,11 @@ public class Articulo {
                 + ", categoria=" + categoria + "]";
     }
 
+    public void kaixo(){
+        System.out.println("Kaixo [titulo=" + titulo + ", autor=" + autor.getName() + ", fechaPublicacion=" + fechaPublicacion
+                + ", categoria=" + categoria + "]");
+    }
+
     
     
 }
