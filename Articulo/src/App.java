@@ -9,5 +9,7 @@ public class App {
         System.out.println(a1.toString());
         Articulo a2 = new Articulo(autorea, Categoria.BACKEND, gaur, "Lehenengo Java Artikulua");
         System.out.println(a2.toString());
+        Articulo aitzol = new Articulo(autorea, Categoria.BACKEND, gaur, "Lehenengo Java Artikulua");
+        System.out.println(aitzol.toString());
     }
 }
