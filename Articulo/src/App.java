@@ -4,6 +4,7 @@ import java.time.LocalDate;
 public class App {
     public static void main(String[] args) throws Exception {
         Author autorea = new Author("Oxel");
+        Author autorea_1 = new Author("leire");
         LocalDate gaur = LocalDate.now();
         Articulo a1 = new Articulo(autorea, Categoria.BACKEND, gaur, "Lehenengo Java Artikulua");
         System.out.println(a1.toString());
@@ -13,5 +14,7 @@ public class App {
         System.out.println(aitzol.toString());
         Articulo Oxel = new Articulo(autorea, Categoria.BACKEND, gaur, "Lehenengo Java Artikulua");
         System.out.println(Oxel.toString());
+        Articulo leire = new Articulo(autorea_1, Categoria.BACKEND, gaur, "Lehenengo Java Artikulua");
+        System.out.println(leire.toString());
     }
     }
