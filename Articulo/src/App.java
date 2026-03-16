@@ -16,5 +16,7 @@ public class App {
         System.out.println(Oxel.toString());
         Articulo leire = new Articulo(autorea_1, Categoria.BACKEND, gaur, "Lehenengo Java Artikulua");
         System.out.println(leire.toString());
+        Articulo leire2 = new Articulo(autorea_1, Categoria.BACKEND, gaur, "Lehenengo Java Artikulua");
+        System.out.println(leire2.toString());
     }
     }
